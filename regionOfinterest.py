@@ -19,7 +19,7 @@ while True:
     pTime = cTime
     cv2.putText(frame,'FPS'+ str(int(fps)) , (20,70),cv2.FONT_HERSHEY_SIMPLEX,2,(255,255,255))
     frameROI_resized = cv2.resize(frameROI, (140, 60))
-    frame[0:60,0:140] = frameROI_resized
+    frame[200:260,300:440] = frameROI_resized
     cv2.imshow('webcam', frame)
     cv2.waitKey(1)
 
