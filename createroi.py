@@ -29,8 +29,8 @@ cv2.namedWindow('cam')
 
 
 cam = cv2.VideoCapture(0)
-cam.set(3,width)
-cam.set(4,height)
+# cam.set(3,width)
+# cam.set(4,height)
 
 
 cv2.setMouseCallback('cam', createroi)
